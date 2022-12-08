@@ -28,6 +28,7 @@ class Screen(object):
         Window.setObjectName("Window")
         Window.resize(948, 791)
         Window.setStyleSheet("#centralwidget {image: url(:/Images/Images/Background.png);}")
+        Window.setWindowIcon(QtGui.QIcon('rope.png'))
         self.centralwidget = QtWidgets.QWidget(Window)
         self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
